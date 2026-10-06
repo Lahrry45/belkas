@@ -1,0 +1,15 @@
+# EAS uploads the monorepo root (EAS_NO_VCS=1, EAS_PROJECT_ROOT=<repo root>). Keep the upload small.
+node_modules
+**/node_modules
+apps/web/.next
+apps/web/.vercel
+apps/web/.env.local
+.expo
+**/.expo
+apps/mobile/android
+apps/mobile/ios
+supabase/.temp
+supabase/seed-images
+*.pptx
+.DS_Store
+releases

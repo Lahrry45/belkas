@@ -1,0 +1,15 @@
+[
+  { "slug": "woven-patent-sandal", "name": "Woven patent sandal", "category": "Sandal", "price_naira": 30000, "description": "Glossy black criss-cross straps in a cage weave, with a gold plate at the toe.", "is_featured": true },
+  { "slug": "black-leather-mule", "name": "Black leather mule", "category": "Mule", "price_naira": 33000, "description": "Smooth black leather, backless cut, with a metal emblem on the vamp.", "is_featured": false },
+  { "slug": "croc-effect-derby", "name": "Croc-effect derby", "category": "Lace-up", "price_naira": 40000, "description": "Glossy croc-embossed black leather, lace-up front, on a chunky lug sole.", "is_featured": true },
+  { "slug": "black-patent-loafer", "name": "Black patent loafer", "category": "Loafer", "price_naira": 40000, "description": "High-shine black leather with gold horsebit hardware, on a thick lug sole.", "is_featured": true },
+  { "slug": "tan-leather-loafer", "name": "Tan leather loafer", "category": "Loafer", "price_naira": 40000, "description": "Polished cognac-brown leather with a gold bit and bar, on a black lug sole.", "is_featured": false },
+  { "slug": "patent-slip-on", "name": "Patent slip-on", "category": "Slip-on", "price_naira": 36000, "description": "Mirror-black patent leather edged in white piping, on a platform lug sole.", "is_featured": true },
+  { "slug": "monogram-loafer", "name": "Monogram loafer", "category": "Loafer", "price_naira": 40000, "description": "Brown monogram jacquard with tan leather trim and a gold bar, on a lug sole.", "is_featured": false },
+  { "slug": "canvas-slip-on", "name": "Canvas slip-on", "category": "Slip-on", "price_naira": 32000, "description": "Black canvas upper with a red heel accent and a cream rubber sole.", "is_featured": false },
+  { "slug": "flip-flop-green-strap", "name": "Flip-flop, green strap", "category": "Flip-flop", "price_naira": 25000, "description": "Textured green thong strap on a black cushioned footbed with a gold monogram.", "is_featured": false },
+  { "slug": "flip-flop-black-strap", "name": "Flip-flop, black strap", "category": "Flip-flop", "price_naira": 25000, "description": "Textured black thong strap on a black cushioned footbed with a gold monogram.", "is_featured": true },
+  { "slug": "flip-flop-blue-strap", "name": "Flip-flop, blue strap", "category": "Flip-flop", "price_naira": 25000, "description": "Textured blue thong strap on a black cushioned footbed with a gold monogram.", "is_featured": false },
+  { "slug": "flip-flop-gold-strap", "name": "Flip-flop, gold strap", "category": "Flip-flop", "price_naira": 25000, "description": "Textured gold thong strap on a black cushioned footbed with a gold monogram.", "is_featured": false },
+  { "slug": "olive-low-top-sneaker", "name": "Olive low-top sneaker", "category": "Sneaker", "price_naira": 25000, "description": "Tonal olive-green upper, laces and sole for a clean monochrome look.", "is_featured": true }
+]

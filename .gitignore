@@ -1,0 +1,17 @@
+node_modules
+.env
+.env.local
+.env*.local
+.next
+.expo
+dist
+*.tsbuildinfo
+.vercel
+apps/mobile/android
+apps/mobile/ios
+supabase/.temp
+.DS_Store
+.env*
+releases/*.apk
+!.env.example
+!**/.env.example

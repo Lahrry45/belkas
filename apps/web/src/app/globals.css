@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #151413;
+  --color-paper: #ffffff;
+  --color-sand: #f5f2ee;
+  --color-line: #e7e3de;
+  --color-muted: #6f6a64;
+  --color-accent: #b4471f;
+  --color-accent-dark: #8f3517;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-serif), ui-serif, Georgia, serif;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+@utility icon-btn {
+  @apply grid h-10 w-10 place-items-center rounded-full text-ink transition hover:bg-sand;
+}
+@utility btn {
+  @apply inline-flex h-12 items-center justify-center gap-2 px-6 text-sm font-medium tracking-wide transition disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-ink text-white hover:bg-black;
+}
+@utility btn-accent {
+  @apply btn bg-accent text-white hover:bg-accent-dark;
+}
+@utility btn-outline {
+  @apply btn border border-ink text-ink hover:bg-ink hover:text-white;
+}
+@utility input {
+  @apply h-12 w-full border border-line bg-white px-4 text-[15px] outline-none transition placeholder:text-muted/70 focus:border-ink;
+}
+@utility label {
+  @apply mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted;
+}
+@utility eyebrow {
+  @apply text-[11px] font-semibold uppercase tracking-[0.25em] text-accent;
+}
+@utility skeleton {
+  @apply animate-pulse bg-sand;
+}
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}

@@ -1,0 +1,12 @@
+node_modules
+**/node_modules
+apps/web/.next
+apps/mobile/android
+apps/mobile/ios
+apps/mobile/assets
+supabase/seed-images
+**/.env
+**/.env.local
+docs
+*.pptx
+releases

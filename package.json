@@ -1,0 +1,25 @@
+{
+  "name": "belkas",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "test": "npm test -w @belkas/shared",
+    "typecheck": "npm run typecheck -w @belkas/shared && npm run typecheck -w web && npm run typecheck -w mobile"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "supabase": "^2.50.0"
+  },
+  "optionalDependencies": {
+    "@supabase/cli-darwin-arm64": "^2.119.0"
+  }
+}
